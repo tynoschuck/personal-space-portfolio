@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img-tyno.svg";
+import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -50,7 +50,7 @@ export const Banner = () => {
             <span className="tagline">Hello there!</span>
             <h1>
               <span className="wrap">I'm {text}, </span>
-              <br />{`a Web Developer`}
+              {`a Front-end Developer`}
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione

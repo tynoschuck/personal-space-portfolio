@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img-tyno.svg";
+import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Dado", "tynoschuck", "Davide"];
+  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -47,10 +47,10 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Hello there!</span>
+            <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              <span className="wrap">I'm {text}, </span>
-              <br />{`a Web Developer`}
+              {`Hi! I'm a webdecoded`}
+              <span className="wrap">{text}</span>
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
