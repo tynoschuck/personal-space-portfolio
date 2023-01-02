@@ -1,5 +1,6 @@
 {
-  "name": "personal-portfolio",
+  "name": "personal-space-portfolio",
+  "homepage": "https://tyno-space-portfolio.netlify.app/"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
