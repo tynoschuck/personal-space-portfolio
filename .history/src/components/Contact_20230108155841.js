@@ -109,7 +109,7 @@ export const Contact = () => {
                             "Max length is 2000 char."}
                         </p>
                       )}
-                      <button type="submit"><span>SUBMIT</span></button>
+                      <button type="submit">SUBMIT</button>
                       </Col>
                     </Row>
                   </form>
